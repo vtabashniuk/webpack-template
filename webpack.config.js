@@ -93,6 +93,13 @@ module.exports = {
           filename: `img/${filename("[ext]")}`,
         },
       },
+      {
+        test: /\.(woff|woff2|ttf|otf|eot)$/,
+        type: "asset/resource",
+        generator: {
+          filename: `assets/fonts/${filename("[ext]")}`,
+        },
+      },
     ],
   },
 };

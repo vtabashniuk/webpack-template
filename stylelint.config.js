@@ -21,6 +21,7 @@ module.exports = {
 
     "order/properties-alphabetical-order": true,
     "import-notation": "string",
+    "media-feature-range-notation": "prefix",
     // Add other rules as needed
   },
 };
